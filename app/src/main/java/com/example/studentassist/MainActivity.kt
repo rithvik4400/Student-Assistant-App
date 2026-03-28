@@ -556,7 +556,7 @@ fun DoubtSolverScreen() {
     // Initialize Gemini (Replace with your actual API Key)
     val generativeModel = GenerativeModel(
         modelName = "gemini-1.5-flash",
-        apiKey = "AIzaSyAjkPycu2KZ_Ksr6vdfMGcf8LsgnD99Kts"
+        apiKey = "your_api_key"
     )
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
